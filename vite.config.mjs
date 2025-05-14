@@ -4,7 +4,7 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig(({ mode }) => ({
   plugins: [react(), tsconfigPaths()],
-  base: mode == "production" ? '/michaelbsongs/' : "/",
+  base: "/",
   test: {
     globals: true,
     environment: 'jsdom',
