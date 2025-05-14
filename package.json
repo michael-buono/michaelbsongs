@@ -18,6 +18,8 @@
     "vitest:watch": "vitest",
     "test": "npm run typecheck && npm run prettier && npm run lint && npm run vitest && npm run build",
     "storybook": "storybook dev -p 6006",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist",
     "storybook:build": "storybook build",
     "prepare": "husky"
   },
