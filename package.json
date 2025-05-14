@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "version": "0.0.0",
-  "homepage": "https://michael-buono.github.io/michaelbsongs",
+  "homepage": "https://michaelbsongs.com",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
