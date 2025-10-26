@@ -3,7 +3,6 @@ import '@mantine/core/styles.css'
 
 import { Global } from '@emotion/react'
 import { MantineProvider } from '@mantine/core'
-import Shell from './components/Shell'
 import { Router } from './Router'
 import { theme } from './theme'
 
@@ -18,9 +17,7 @@ export default function App() {
           },
         }}
       />
-      <Shell>
-        <Router />
-      </Shell>
+      <Router />
     </MantineProvider>
   )
 }
